@@ -14,12 +14,12 @@ const Register = () => {
   const { fullname, email, password } = formData;
 
   //onChange
-  const onChangeInput = e => {
+  const onChangeInput = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   //Handle submit
-  const onSubmitHandler = e => {
+  const onSubmitHandler = (e) => {
     e.preventDefault();
     if (!email || !password || !fullname) {
       return alert("Please provide all details");
