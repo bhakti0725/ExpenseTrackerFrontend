@@ -28,16 +28,7 @@ export default function Navbar() {
                   </Disclosure.Button>
                 </div>
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-8 w-auto lg:hidden"
-                    src={logo}
-                    alt="i-novotek"
-                  />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src={logo}
-                    alt="i-novotek"
-                  />
+               
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
                   <Link
